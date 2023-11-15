@@ -1,0 +1,424 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WBSetup
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Installeur WEBDEV par média physique
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WBSetup_PCS
+    internal_properties : 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
+    configuration_id : 13065673425503009656
+    type : 1
+    generation_directory : .\Exe\WBSetup_PCS
+    generation_name : WBSetup_PCS.exe
+    version :
+     major_version : 27
+     generation_version : 31
+     internal_generation_version : 23
+    icon_filename : .\installation.ico
+    language : 1
+  -
+    name : WBSetup
+    internal_properties : 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
+    configuration_id : 5935402094910980420
+    type : 1
+    generation_directory : .\Exe\WBSetup
+    generation_name : WBSETUP.exe
+    version :
+     major_version : 27
+     generation_version : 29
+     internal_generation_version : 170
+    icon_filename : .\installation.ico
+    language : 1
+    telemetry :
+     status : disabled
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAACy2nqGO15hJgQbn/IBuI+oVMpnDj0r0bayuuFQWtirtzzlejg6w9OzVrYPWDx/ZuvyxC7dJ0BFO33X
+ elements :
+  identifier : 0x4a5dd0b100710469
+  elements :
+   -
+     name : FEN_ChoixLangue
+     identifier : 0x4767ae9200003278
+     internal_properties : CAAAAAgAAACxjek9Crf/MDUqS/iCNWdatcRsNAzwuh62VQTqjZrwEDDQ2Om4TKnXVsI8hAzEvCyUnA==
+     physical_name : .\FEN_ChoixLangue.wdw
+     type : 2
+   -
+     name : CInstallWBUtil
+     identifier : 0x4a5dfff3018b9c74
+     internal_properties : CAAAAAgAAADjX9vP/KkBGjMEeQpsiI3kO7Q2ph+97mCvRCCLoZmFU5FPYUBW7lcFgLwmkhLOqh7mbg==
+     physical_name : .\CInstallWBUtil.wdc
+     type : 4
+   -
+     name : CWDFile
+     identifier : 0x4eb26bfb0035d2de
+     internal_properties : CAAAAAgAAADJRTHV0o+nSG1yw3AKr+PWbQg0pAn+mMBY6jp5bJSGUu4iTmMw1DFfLurULPTslATMVA==
+     physical_name : .\WDFILE.WDC
+     type : 4
+   -
+     name : CFichierInst
+     identifier : 0x4766a1fb0001020a
+     internal_properties : CAAAAAgAAADiWNrO/aoCHTAFeg9xz0yLXs1Vfc6u0PeJmzt6aLhkXKRu3FVB+1oGgb0nkRHPqx3nbw==
+     physical_name : .\CFichierInst.wdc
+     type : 4
+   -
+     name : IHMBasNiveau
+     identifier : 0x47835e2900016d36
+     internal_properties : CAAAAAgAAAAJBXEVks9nCC0yg7DKsX86bXxkbMQcAdaqABwCcaZ0bFScjCVwlPGfbqoU7LQs1MQMFA==
+     physical_name : .\IHMBasNiveau.wdg
+     type : 7
+   -
+     name : WinDevMessageBox
+     identifier : 0x4908315700e880e0
+     internal_properties : CAAAAAgAAAA0EhwYp5yUl6Gie1mb7qftXj+lfTAA8vxKqepDh4kL9c8n+YdgWD/yFjehH+cZ4dchIQ==
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : Langues
+     identifier : 0x4767afd60001230d
+     internal_properties : CAAAAAgAAABRrYmdKlffkFWKK9iiG4tmNRB8/NgyOrpwwX2W10BKjnK+Mo8YLIk39iKcZCykXEy0vA==
+     physical_name : .\Langues.wdg
+     type : 7
+   -
+     name : CObjetProjet
+     identifier : 0x4eb26ac6002f1ebc
+     internal_properties : CAAAAAgAAACgnpiEIxgQy+LzRPWPaQrV7ONLY2dN/syCPura2TJaTr4QngOrUbTgr2tVo2OdZVulrQ==
+     physical_name : .\CObjetProjet.wdc
+     type : 4
+   -
+     name : FEN_Termine
+     identifier : 0x47a080b000021559
+     internal_properties : CAAAAAgAAAD+ZNbK+aYOISQZfgN1yLCP1rc9dUfcvcOvk+hYqk1HuQvb015N914KhbErlR3TryHraw==
+     physical_name : .\FEN_Termine.wdw
+     type : 2
+   -
+     name : CModifAutoDesc
+     identifier : 0x4766a1fb00030390
+     internal_properties : CAAAAAgAAACKgPKWFVLahVh9wncJ7Yhvpsl1lSoK+s5JR1Vg8i7uynakLoMp0zJeKRWPaSmnU0WPlw==
+     physical_name : .\CModifAutoDesc.wdc
+     type : 4
+   -
+     name : CInstallWBData
+     identifier : 0x4766a1fb000202d4
+     internal_properties : CAAAAAgAAABl4U1RbgsjPIHWN0Q++6eCcXzIWGR2+xBMTj2eX9i6FiLOwm88wCVT0k5IsHBgGIhw8A==
+     physical_name : .\CInstallWB.wdc
+     type : 4
+   -
+     name : VerStd
+     identifier : 0x4a5e004701bee7df
+     internal_properties : CAAAAAgAAADduTXp1oOrtBk+j7zGhHsuDWqwIJTOcSBUcVGTrG2ptzGjiSh0iO2batbAOPjokADISA==
+     physical_name : .\VerStd.wdg
+     type : 7
+   -
+     name : CAssist
+     identifier : 0x4767b6220002bc31
+     internal_properties : CAAAAAgAAACvq4ebKFXdjleILd6g551EUxLqcmjVaxH4gevZWcTWYlpKIo8SKos59CCaZi6iXlK6ug==
+     physical_name : .\cassist.wdc
+     type : 4
+   -
+     name : CWDBuffer
+     identifier : 0x4eb26bd900334fe9
+     internal_properties : CAAAAAgAAAAWfH6iAX42OZyhNns9lQzDKn1ZqaVW7TrRp/il0V42yj68lhuFvyZS3VlDvUW7R7kDAw==
+     physical_name : .\CWDBuffer.wdc
+     type : 4
+   -
+     name : CInstallWBMoteur
+     identifier : 0x4a5dfff201879abe
+     internal_properties : CAAAAAgAAADva8fb6JWdThdI7R5g2VH4az46spln6p1KCYAopHYcLIB80FFS6kt5NODaJu7inhL6eg==
+     physical_name : .\CInstallWBMoteur.wdc
+     type : 4
+   -
+     name : FEN_SelectMoteur
+     identifier : 0x4a5dfff3018d9d4e
+     internal_properties : CAAAAAgAAAAT70tfbNlRCiM0qVrctlkwAwAO1vhzUIFEZZtq6DdfoWOtgz5mnge1cKwW4qJeGo52/g==
+     physical_name : .\FEN_SelectMoteur.wdw
+     type : 2
+   -
+     name : CInstallWBExec
+     identifier : 0x4766a2f30008cbdd
+     internal_properties : CAAAAAgAAAAsKgQQr9RcD9bnWOmTdh7hLL0bw/3geHG2EfqoLBtxtxnZsQCnXbjko58Z568h2c85OQ==
+     physical_name : .\CInstallWBExec.wdc
+     type : 4
+   -
+     name : CFichierInstDistant
+     identifier : 0x4ce682e600a11a18
+     internal_properties : CAAAAAgAAADlYc3R7oujvAFWt8S+QidiBQZAUFcn5r6m9lrb5StrVVOpK/a8QKXTUs7IMPDgmAjwcA==
+     physical_name : .\CFichierInstDistant.wdc
+     type : 4
+   -
+     name : MDLC_ParamSaaS
+     identifier : 0x4b9a81a60020b745
+     internal_properties : CAAAAAgAAADQLggUk8hge9LjdAV/BN65aGUnf0WARUuo5x8u5klLtTOPA777AWQQn5sF87Mt1cs1PQ==
+     physical_name : .\MDLC_ParamSaaS.wdt
+     type : 20
+   -
+     name : CEltProjetFile
+     identifier : 0x4eb26baf0031aa67
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVHler1wmbBs+zbpAwPMjK6WtZsitO/WhvwnroRCUqA27Svbg2FiIcGCoqA==
+     physical_name : .\CEltProjetFile.wdc
+     type : 4
+   -
+     name : FEN_Jauge
+     identifier : 0x47833ef00000757d
+     internal_properties : CAAAAAgAAADAvjhkQzhwq4LTJFUvZnodKJknb1mRBYSq8BlthJMBH+nJgTCLsRRAz0u1A4N9BfvFTQ==
+     physical_name : .\FEN_Jauge.wdw
+     type : 2
+   -
+     name : WBSetup
+     identifier : 0x476692ab000031a0
+     internal_properties : CAAAAAgAAABaMAIGpeLK1ejNUueZKcgHltlVRQnUCbxKaC9bjYqCZqoQYt/ZY8LuuWVfWdkX49U/xw==
+     physical_name : .\WBSetup.wdg
+     type : 7
+   -
+     name : CInstallWBServeur
+     identifier : 0x4a5dfff201899bb8
+     internal_properties : CAAAAAgAAAB/21dLeCWNnqeY/Y7wUcF4+7464tkHYlaKdSjgTK7kxAj0WOnCetuJBDCqFp5SLqJq6g==
+     physical_name : .\CInstallWBServeur.wdc
+     type : 4
+   -
+     name : WinDevDialogBox
+     identifier : 0x4908315b00f08fa6
+     internal_properties : CAAAAAgAAABfO7drWAUtPo7L9NYcT0We7cqg8LTfkBWukIHwqEFVux2HfQLz1cZ771BKtn5yDoJKyg==
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+   -
+     name : FEN_AssistInstall
+     identifier : 0x4766a2740006da9c
+     internal_properties : CAAAAAgAAABBPbnt2oevQAU6m6jSvVf6ZcTMpKx3l0mCvrExpWIoOIh40FFonPmnZtLMNPz0jHxEzA==
+     physical_name : .\FEN_AssistInstall.wdw
+     type : 2
+   -
+     name : CServeurInst
+     identifier : 0x4766a1fc00050516
+     internal_properties : CAAAAAgAAADkYszo14ykR25P0GEbt7r9cNNPB6SU/vmp86+OQNBMRLB+0GFf5UBsO+fRL/fpkQfxcQ==
+     physical_name : .\CServeurInst.wdc
+     type : 4
+   -
+     name : CXWaitCursor
+     identifier : 0x4d386a0800477c1c
+     internal_properties : CAAAAAgAAADUsjx4Rzx0d97/QPGLeAo9FAFja9KCAONV4JqbS6V3cV+jjxKvVbDcq5cB/4d5AffBQQ==
+     physical_name : .\CXWaitCursor.wdc
+     type : 4
+   -
+     name : CParamLangue
+     identifier : 0x4766a1fc0004045a
+     internal_properties : CAAAAAgAAACMiuQwD7T8LzYHeAlzoU5ZwIefhygo/F9xIX34/gISPvYIRmtH/VgEg785hw/BuS+ZmQ==
+     physical_name : .\CParamLangue.wdc
+     type : 4
+   -
+     name : CDialoguePRJWDinst
+     identifier : 0x44f4a368012b89b5
+     internal_properties : CAAAAAgAAADOVCZ6yfa+8f4ui7j4Bb5g5odNJYggh0a2Mk5nY42HWesbWq9/guaFl4F7Rc0D//HbWw==
+     physical_name : .\CDialoguePRJWDinst.wdc
+     type : 4
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components :
+   -
+     name : CompteWEBDEV
+     identifier : 0x4767cf4c0004087e
+     internal_properties : CAAAAAgAAAAtFwTE4BCKHAw0ojD/8xWLQWQDkAMKJGJwY8UDrAMQPHN/rv5+QLFGc9HwX+MCbf/5LIEl4yVxjjcVTRW2Joq18mQ2xlVxsg==
+     wdi_physical_name : .\CompteWEBDEV.wdi
+     wdk_physical_name : .\CompteWEBDEV.wdk
+     original_name : "J:\\WX28\\Encours\\Source\\Composant\\CompteWEBDEV.wdi"
+   -
+     name : ModAuto
+     identifier : 0x4768f1b100005dd5
+     internal_properties : CAAAAAgAAABj1cryGjY40rIZ/qoOo9Ac60KDu8lVNMun25z+COSLp/9JnlvJ9G6EKD+mpu8Abj97SWJXC4XNZUH9lFLnZNQDoIrskJ8vdA==
+     wdi_physical_name : .\ModAuto.wdi
+     wdk_physical_name : .\ModAuto.wdk
+     original_name : "J:\\WX28\\Encours\\Source\\Composant\\ModAuto.wdi"
+   -
+     name : ServeursWeb
+     identifier : 0x4c064ccd016689c3
+     internal_properties : CAAAAAgAAADPcWZejqJEbj6XFglpttkUDQxZ1V2WhP3D9MCpDmd6olpJ1vxiU5u2ACBHtikla9g8iXJZ49f5Ad53KWSd2FiHJBZgLPOT0A==
+     wdi_physical_name : .\ServeursWeb.WDI
+     wdk_physical_name : .\ServeursWeb.wdk
+     original_name : "J:\\WX28\\Encours\\Source\\Composant\\ServeursWeb.WDI"
+   -
+     name : WDOutil
+     identifier : 0x4ddd38eb0061168a
+     internal_properties : CAAAAAgAAAADNSoSOlZY8pInDupVeOv3KvWB0LnXthFXmrIRbPpcARh4adtfY3PB70R7tOOT33JaKKcHS77dsm3YOjClRPQjQCoM8D9PlA==
+     wdi_physical_name : .\WDOutil.wdi
+     wdk_physical_name : .\WDOutil.wdk
+     original_name : "J:\\WX28\\Encours\\Source\\Composant\\WDOutil.wdi"
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - fr-FR
+  - en-GB
+  - es-ES
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAABZfokmJ7zo51Hzw20b9R92xzrhp/DTUvCalp+QMrmmU/ULZUjeVYyrGAqxr8MN3z/IsLNiA/imXM5+kWeh75XpFpkUUhwj0lsx
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABDP0+3EU/4J4bSI6QW/gg3GtY4fhWOjFYlZoQOykXTaWzBcUnQT8UTql0SF3mY1UznQ7VLIKHGE2itnfKjUzMEy7e/Y2oZV2EXGGAhS5VsE7FeC0mbac9aywQt68FtHMYv40z2uDkp2LXPjtn88Wtp8BeZN7o3xEly0ymMJwzMTw==
+     code : |1-
+      // Traitement de la ligne de commande
+      IHM_TraiteLigneCommande()
+      
+      gnCodeRetourExe		est un entier	= 1
+      gclInstallUtil		est un CInstallWBUtil
+      gclInstallServeur	est un CInstallWBServeur(gclInstallUtil)
+      gclInstallMoteur	est un CInstallWBMoteur(gclInstallUtil)
+      gclInstall			est un CInstallWBExec(gclInstallUtil)
+      gsCleCryptageInfoCloud est une chaine = "" //pas utilisé
+      
+      
+      
+      // Initialisation des objets d'installation
+      INSTALL_Init()
+      
+      LOCAL
+      	pclServeurWeb est un CServeurWeb dynamique=CServeurWeb::s_pclAlloueServeur(gclInstallUtil:m_nServeurWeb)
+      SI Null = pclServeurWeb ALORS
+      	Trace("Echec de l'allocation du serveur")
+      FIN
+      
+      bWarning est un booleen
+      si gclInstall:m_bModeInstallWebserviceLocal alors
+      	//	Trace("mode d'installation de WebService en local")
+      	ConstantesWebDev.gnModeServeur = ConstantesWebDev.ModeServeur_Non
+      	
+      	si INSTALL_bExec(bWarning, pclServeurWeb) alors
+      		bSansCRFinal est un booléen=(Position(LigneCommande(),"/GO",1,SansCasse+DepuisDébut)>0)
+      		si pas bSansCRFinal alors
+      			SI bWarning ALORS
+      				//		Trace(<§@00000000000000000001§>)
+      				Ouvre(FEN_Termine,<§@00000000000000000001§>)
+      			SINON
+      				// GP 24/01/2018 : QW295277 : Tente de lancer WDxxxAdmin.exe. Normalement cela ne pose pas de problèmes :
+      				// - Si WDxxxAdmin.exe est déjà lancé, il donne la main au précédent WDxxxAdmin.exe.
+      				// - WBSetup est lancé avec UAC, donc l'UAC n'est pas réaffichée au lancement de WDxxxAdmin.exe.
+      				// N'utilise pas sGetLigneCommandeAdmin/bLanceCommandeAdmin car cela lance WDAdminLow.
+      				sCheminCompletWDxxxAdmin est une chaine = ConstantesWebDev.gpclConfigGlobale.sGetValeur(VALREG_BINPATH) + [fSep] + NOM_WDADMIN
+      				SI fFichierExiste(sCheminCompletWDxxxAdmin) ALORS
+      					sLigneCommandeWDxxxAdmin est une chaine = """" + sCheminCompletWDxxxAdmin + """ /ICONISE"
+      					LanceAppli(sLigneCommandeWDxxxAdmin, exeInactif, exeNonBloquant)
+      				FIN
+      				//		trace(<§@00000000000000000002§>)
+      				Ouvre(FEN_Termine,<§@00000000000000000002§>)
+      			FIN
+      		fin
+      	fin
+      sinon
+      	ConstantesWebDev.gnModeServeur = ConstantesWebDev.ModeServeur_Oui
+      	//	Trace("mode d'installation classique")
+      	// Ouvre l'assistant d'installation si on a l'IHM et réalise l'installation sinon
+      	SI IHM_bDisponible() ALORS
+      		Ouvre(FEN_AssistInstall, pclServeurWeb)
+      	SINON
+      		INSTALL_bExec(bWarning, pclServeurWeb)
+      	FIN
+      FIN
+     type : 196608
+   -
+     code : |1-
+      renvoyer gnCodeRetourExe
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     code : |1-
+      
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WBSetup_PCS
+     identifier : 0x4221ff0700aaf693
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : WBSetup
+     identifier : 0x4a5dd0b100820524
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    name : CompteWebDev
+    explorer_type : custom_folder
+    children :
+     -
+       name : CClientsWebDevImport
+       explorer_type : element
+       type : 4
+     -
+       name : CClientWebDev
+       explorer_type : element
+       type : 4
+     -
+       name : CClientWebDevImport
+       explorer_type : element
+       type : 4
+     -
+       name : CWinApiNetApi
+       explorer_type : element
+       type : 4
+     -
+       name : StatistiquesSites
+       explorer_type : element
+       type : 7
+     -
+       name : ManipComptesWindows
+       explorer_type : element
+       type : 7
+     -
+       name : ManipComptesWebDev
+       explorer_type : element
+       type : 7
+  -
+    name : ModAuto
+    explorer_type : custom_folder
+    children :
+     -
+       name : modauto_avance
+       explorer_type : element
+       type : 2
+     -
+       name : ModAuto
+       explorer_type : element
+       type : 7
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : L'installation est terminée. Vous devez corriger manuellement les incidents qui vous ont été signalés pour pouvoir utiliser le site WEBDEV.
+      en-GB : The setup is completed. The incidents that were notified to you must be fixed manually in order for the WEBDEV site to operate.
+      es-ES : La instalación ha finalizado. Los incidentes señalados deben corregirse manualmente para poder utilizar el sitio WEBDEV.
+     index : 1
+   -
+     text :
+      fr-FR : L'installation s'est terminée avec succès.
+      en-GB : The setup was successfully completed.
+      es-ES : La instalación se ha realizado con éxito.
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
